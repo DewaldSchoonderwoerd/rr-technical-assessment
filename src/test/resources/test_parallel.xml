@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Tests" parallel="tests" thread-count="3">
+    <test name="Chrome Test 1">
+
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.DemoblazePurchaseTest" />
+        </classes>
+    </test>
+    <test name="Chrome Test 2">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.DemoblazePurchaseTest" />
+        </classes>
+    </test>
+    <test name="Firefox Test 1">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="tests.DemoblazePurchaseTest" />
+        </classes>
+    </test>
+    <test name="Database Tests">
+        <classes>
+            <class name="tests.MySQLCrudTest"/>
+        </classes>
+    </test>
+</suite>

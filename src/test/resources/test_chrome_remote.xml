@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Tests">
+    <test name="Demoblaze Test">
+        <parameter name="browser" value="chrome_remote" />
+        <classes>
+            <class name="tests.DemoblazePurchaseTest" />
+        </classes>
+    </test>
+</suite>
